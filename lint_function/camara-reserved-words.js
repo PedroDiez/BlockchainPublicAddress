@@ -1,3 +1,6 @@
+// CAMARA Project - support function for Spectral linter
+// 31.01.2024 - initial version
+
 const reservedWords = [
   'abstract',
   'apiclient',
@@ -55,7 +58,7 @@ const reservedWords = [
   'package',
   'private',
   'protected',
-  'public',
+//  'public',  #Explicitly skipped in Blockchain as public word is part of API semantic 
   'return',
   'short',
   'static',
