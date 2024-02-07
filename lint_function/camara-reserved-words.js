@@ -58,7 +58,7 @@ const reservedWords = [
   'package',
   'private',
   'protected',
-//  'public',  #Explicitly skipped in Blockchain as public word is part of API semantic 
+//  'public',  # Explicitly skipped in Blockchain Public Address, as `public` word is part of API semantic
   'return',
   'short',
   'static',
